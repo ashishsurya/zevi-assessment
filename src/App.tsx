@@ -1,18 +1,13 @@
-import React from 'react';
-
-import './App.scss';
-import { Logo } from './components/Logo/Logo';
-import { SearchBar } from './components/SearchBar/SearchBar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HomePage } from './components/pages/HomePage';
 
 function App() {
   return (
-    <div className='App'>
-      <div className='App__Logo'>
-        <Logo />
-      </div>
-
-      <SearchBar />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

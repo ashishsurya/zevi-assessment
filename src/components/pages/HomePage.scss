@@ -1,0 +1,19 @@
+.App {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 60vh;
+
+  &__Logo {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+}
+
+.HomePage__wrapper {
+  min-height: 100dvh;
+  background-repeat: none;
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/f1a1/49d8/202d0dceee7a58e28a469bba2c8903d7?Expires=1691366400&Signature=aCIGjw2IFZHrkSoC~P5i-E-SaqGgTgpWTZ-YepnfvwUkSDprVAA1X2rijZu4RnLIYChHIl~NZ2SzyIA8OqxMHgXJ-N1l63~YKbIQT3OziRkbo32Mc14veb8DvRzaYLrO1Ex9BDDiT4x07gYH8lM1QNSuYD5qoDT8NA2T3XcGWb8Hk1i6OOlS4MTSpo10Urkp6XYkSGmWv7QZs4wHjRZq7oQV796AgTqPFXCHX2guMm7dYmQVQhYZhRm9-t1qWFaSozCTTx-cOVwTXKAEr64TXBv653j0azOWBCpmcWFDq-OZFACrDGMxQ5WoqWMIOsDAS0De67-skE5kh-vMyH8sSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
