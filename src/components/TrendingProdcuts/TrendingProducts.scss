@@ -1,9 +1,35 @@
-.trending__products__dialog{
+.trending__products__dialog {
   position: absolute;
   top: 80px;
   width: calc(100% + 100px);
   margin: 0 -68px;
   background-color: white;
-  padding: 12px 18px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 18px 24px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  &__products_row {
+    margin: 32px 0px;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+  }
+  &__popular__suggestions {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    margin: 18px 0px;
+
+    p {
+      font-size: small;
+      color: gray;
+      cursor: pointer;
+      width: fit-content;
+    }
+  }
 }
