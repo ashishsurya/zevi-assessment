@@ -1,7 +1,5 @@
-import { AnimatePresence } from 'framer-motion';
 import { FC } from 'react';
 import { useTrendsDialogStore } from '../../zustand/useTrendsDialog';
-import { TrendingProducts } from '../TrendingProdcuts/TrendingProducts';
 import './SearchBar.scss';
 
 interface SearchBarProps {}
@@ -25,7 +23,6 @@ export const SearchBar: FC<SearchBarProps> = ({}) => {
         />
       </svg>
 
-      <AnimatePresence>{open && <TrendingProducts />}</AnimatePresence>
     </div>
   );
 };

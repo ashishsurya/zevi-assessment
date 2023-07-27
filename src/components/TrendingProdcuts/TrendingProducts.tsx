@@ -13,6 +13,8 @@ export const TrendingProducts: FC<TrendingProductsProps> = ({}) => {
   const ref = useRef<ElementRef<'div'>>(null);
   const { closeDialog } = useTrendsDialogStore();
 
+
+  // used to prevent the dialog from closing when clicking inside the dialog
   useClickOutside(ref, closeDialog);
 
   const trendingProducts = getTrendingProducts();

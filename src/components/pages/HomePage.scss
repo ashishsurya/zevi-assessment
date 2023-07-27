@@ -1,4 +1,4 @@
-.App {
+.HomePage {
   position: relative;
   display: grid;
   place-items: center;
@@ -8,6 +8,11 @@
     position: absolute;
     right: 40px;
     top: 40px;
+  }
+
+  &__searchbar {
+    position: relative;
+    width: 60%;
   }
 }
 
