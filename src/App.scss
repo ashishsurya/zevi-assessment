@@ -1,0 +1,11 @@
+.App {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 60vh;
+  &__Logo {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+}
