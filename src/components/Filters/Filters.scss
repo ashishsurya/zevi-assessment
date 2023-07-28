@@ -1,0 +1,39 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+
+  &__brands {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    width: 200px;
+
+    h3 {
+      font-size: medium;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    &__brand {
+      display: flex;
+      gap: 4px;
+      font-size: medium;
+      margin: 4px 0;
+    }
+  }
+
+  &__ratings {
+    padding: 16px 0;
+    h3 {
+      font-size: medium;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &__rating {
+      display: flex;
+      gap: 4px;
+      margin: 12px 0;
+    }
+  }
+}

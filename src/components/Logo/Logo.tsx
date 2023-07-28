@@ -1,6 +1,5 @@
 import { FC } from 'react';
-import "./Logo.scss"
-
+import './Logo.scss';
 
 interface logoProps {}
 

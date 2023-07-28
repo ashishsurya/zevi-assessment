@@ -9,7 +9,11 @@
 body {
   font-family: 'Inter', sans-serif !important;
   background-color: #dad8db;
-  }
+}
 
 ::placeholder {
+}
+
+input {
+  accent-color: rgb(255, 174, 0);
 }

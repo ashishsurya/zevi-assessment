@@ -1,0 +1,26 @@
+.searchpage__wrapper {
+  background-color: white;
+  padding: 24px;
+  min-height: 100vh;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+
+    &__searchbar__wrapper {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+  }
+
+  &__product_filter_wrapper {
+    display: flex;
+    gap: 32px;
+  }
+}

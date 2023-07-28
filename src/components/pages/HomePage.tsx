@@ -9,7 +9,7 @@ import { TrendingProducts } from '../TrendingProdcuts/TrendingProducts';
 interface HomePageProps {}
 
 export const HomePage: FC<HomePageProps> = ({}) => {
-  const { open } = useTrendsDialogStore();
+  const { open, openDialog } = useTrendsDialogStore();
   return (
     <div className='HomePage__wrapper'>
       <div className='HomePage'>
@@ -17,7 +17,7 @@ export const HomePage: FC<HomePageProps> = ({}) => {
           <Logo />
         </div>
         <div className='HomePage__searchbar'>
-          <SearchBar />
+          <SearchBar onFocus={openDialog} />
           <AnimatePresence>{open && <TrendingProducts />}</AnimatePresence>
         </div>
       </div>
