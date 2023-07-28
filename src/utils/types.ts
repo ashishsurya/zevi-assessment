@@ -6,4 +6,7 @@ export interface Product {
 
   brand: string;
   img: string;
+
+  name: string;
+  numberOfReviews: number;
 }

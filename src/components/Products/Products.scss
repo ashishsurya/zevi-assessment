@@ -1,0 +1,7 @@
+.products__wrapper {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 32px;
+  flex: 1;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -10,7 +10,6 @@ import { useProducts } from '../../zustand/useProducts';
 interface SearchPageProps {}
 
 export const SearchPage: FC<SearchPageProps> = () => {
-  const [searchParams] = useSearchParams();
   const { products } = useProducts();
 
   const getBrands = () => {
@@ -28,7 +27,7 @@ export const SearchPage: FC<SearchPageProps> = () => {
       <h1>Search Results</h1>
       <div className='searchpage__wrapper__product_filter_wrapper'>
         <Filters brands={getBrands()} />
-        <Products />
+        <Products products={products} />
       </div>
     </div>
   );

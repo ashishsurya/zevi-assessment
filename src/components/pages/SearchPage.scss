@@ -2,6 +2,7 @@
   background-color: white;
   padding: 24px;
   min-height: 100vh;
+  width: 100vw;
   &__header {
     display: flex;
     justify-content: space-between;
@@ -22,5 +23,9 @@
   &__product_filter_wrapper {
     display: flex;
     gap: 32px;
+  }
+
+  &__product_filter_wrapper {
+    padding-top: 16px;
   }
 }
